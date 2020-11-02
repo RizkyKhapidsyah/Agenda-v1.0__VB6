@@ -1,0 +1,123 @@
+[Root]
+Most Recent Package=Agenda setup
+
+
+[Package|Agenda setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Final Source\Agenda\Setup
+
+[Package|Agenda setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Agenda setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Agenda setup|Files Found]
+BOOK02.ICO=D:\Final Source\Agenda\AgendaSource\BOOK02.ICO
+ContactsBookHelp.doc=D:\Final Source\Agenda\AgendaSource\ContactsBookHelp.doc
+TEMPLATE.bak=D:\Final Source\Agenda\AgendaSource\TEMPLATE.bak
+
+[Package|Agenda setup|Files Released]
+
+[Package|Agenda setup|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Agenda setup|Out-of-Date Dependency Information]
+
+[Package|Agenda setup|Files Added]
+template.bak=
+contactsbookhelp.doc=
+book02.ico=
+
+[Package|Agenda setup|Files Removed]
+c:\program files\common files\system\ado\msado25.tlb=
+
+[Package|Agenda setup|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=No
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Final Source\Agenda\AgendaSource\Agenda.exe=Yes
+D:\Final Source\Agenda\AgendaSource\TEMPLATE.bak=Yes
+D:\Final Source\Agenda\AgendaSource\ContactsBookHelp.doc=Yes
+D:\Final Source\Agenda\AgendaSource\BOOK02.ICO=Yes
+
+[Package|Agenda setup|Configure Registry Files]
+Applicable=No
+
+[Package|Agenda setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Agenda setup|Install Locations]
+D:\Final Source\Agenda\Agenda.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Final Source\Agenda\TEMPLATE.bak=$(AppPath)
+D:\Final Source\Agenda\ContactsBookHelp.doc=$(AppPath)
+D:\Final Source\Agenda\BOOK02.ICO=$(AppPath)
+D:\Final Source\Agenda\AgendaSource\Agenda.exe=$(AppPath)
+D:\Final Source\Agenda\AgendaSource\TEMPLATE.bak=$(AppPath)
+D:\Final Source\Agenda\AgendaSource\ContactsBookHelp.doc=$(AppPath)
+D:\Final Source\Agenda\AgendaSource\BOOK02.ICO=$(AppPath)
+
+[Package|Agenda setup|Configure Shared Files]
+Applicable=Yes
+D:\Final Source\Agenda\Agenda.exe=No
+D:\Final Source\Agenda\TEMPLATE.bak=No
+D:\Final Source\Agenda\ContactsBookHelp.doc=No
+D:\Final Source\Agenda\BOOK02.ICO=No
+D:\Final Source\Agenda\AgendaSource\Agenda.exe=No
+D:\Final Source\Agenda\AgendaSource\TEMPLATE.bak=No
+D:\Final Source\Agenda\AgendaSource\ContactsBookHelp.doc=No
+D:\Final Source\Agenda\AgendaSource\BOOK02.ICO=No
+
+[Package|Agenda setup|Distribution]
+Type=single
+Size=
+Title=Agenda
+
+[Package|Agenda setup|Package]
+PackageFolder=D:\Final Source\Agenda\Setup
+ProjectFolder=D:\Final Source\Agenda\AgendaSource
+ServerSideCab=
+File1=D:\Final Source\Agenda\Setup\setup.exe
+File2=D:\Final Source\Agenda\Setup\Setup.Lst
+File3=D:\Final Source\Agenda\Setup\Agenda.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Agenda setup|IconGroups]
+Group0=Knoton´s Development
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Agenda setup|Knoton´s Development]
+Icon1=Agenda.exe
+Title1=Agenda
+StartIn1=$(AppPath)
+Key1=Icon1
